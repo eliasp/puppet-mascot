@@ -1,0 +1,22 @@
+Outline Mascot Module:
+
+Params:
+- mascot::msparser::download::url
+- mascot::msparser::download::user
+- mascot::msparser::download::pass
+- mascot::install::dir
+- mascot::install::sourcearchive
+
+Process:
+- check supplied params
+- check for existence of mascot::install::sourcearchive
+- extract mascot::install::sourcearchive
+- check for existence of mascot::msparser
+
+TODOs:
+- make sure, Puppet agent doesn't time out when
+    - downloading msparser
+    - extracting msparser
+
+NOTES:
+- use maestrodev::wget (https://github.com/maestrodev/puppet-wget) for downloading msparser
