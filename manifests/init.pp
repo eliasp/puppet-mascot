@@ -45,4 +45,7 @@ class mascot (
     $msparser::download::user = '',
     $msparser::download::pass = '',
 ) {
+    if ! $install::sourcearchive {
+        fail("The required param ${install::sourcearchive} wasn't provided")
+    }
 }
