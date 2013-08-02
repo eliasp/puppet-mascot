@@ -18,6 +18,7 @@ TODOs:
     - downloading msparser
     - extracting msparser
 - add tests
+- license file handling
 
 NOTES:
 - use maestrodev::wget (https://github.com/maestrodev/puppet-wget) for downloading msparser
