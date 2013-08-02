@@ -11,9 +11,12 @@
 #   Server (local path on the server's filesystem)
 #
 # [*msparser::download::url*]
-#   The download URL for an msparser update, as the installation archive might
-#   only contain a really outdated msparser version not matching the current
-#   Perl version.
+#   This is only required if the download URL cannot be properly determined by
+#   the mechanisms in this class. Usually this class should be able to download
+#   the latest version of msparser on it's own.
+#   The download URL for an msparser update, as the source archive might only
+#   contain a really outdated msparser version not matching the current Perl
+#   version.
 #   A mail containing the download URL can be requested on
 #   http://www.matrixscience.com/msparser_download.html
 #

@@ -17,6 +17,7 @@ TODOs:
 - make sure, Puppet agent doesn't time out when
     - downloading msparser
     - extracting msparser
+- add tests
 
 NOTES:
 - use maestrodev::wget (https://github.com/maestrodev/puppet-wget) for downloading msparser
