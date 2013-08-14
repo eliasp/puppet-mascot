@@ -22,3 +22,6 @@ TODOs:
 
 NOTES:
 - use maestrodev::wget (https://github.com/maestrodev/puppet-wget) for downloading msparser
+- use maestrodev::wget (https://github.com/maestrodev/puppet-wget) for downloading swissprot from
+  ftp://ftp.ncbi.nlm.nih.gov/blast/db/swissprot.tar.gz
+  ftp://ftp.ncbi.nlm.nih.gov/blast/db/swissprot.tar.gz.md5
